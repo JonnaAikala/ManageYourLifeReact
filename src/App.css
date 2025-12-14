@@ -5,6 +5,77 @@
   text-align: center;
 }
 
+.oma-navbar {
+  background-color: pink;
+}
+
+.nav-teksti {
+  color: white !important;       /* Bootstrap yliajo */
+}
+
+.navbar-teksti {
+  color: white !important;       /* Bootstrap yliajo */
+  font-weight: bold;
+  font-family: 'Great Vibes';
+}
+
+.nav-teksti:hover {
+  color: #ffe6f0 !important;
+}
+
+.paaotsikko {
+  font-size: 100px;
+  color: palevioletred;
+  font-family: 'Great Vibes';
+}
+
+.todootsikko {
+  color: palevioletred;
+  font-size: 30px;
+}
+
+.nappi {
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  background-color: pink;
+  color: white;
+}
+.todolist table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.todolist th {
+  background: pink;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.todolist td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.todolist tr:hover {
+  background: #f5f9ff;
+}
+
+.tausta {
+  height: 23em;
+  width: 50em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
